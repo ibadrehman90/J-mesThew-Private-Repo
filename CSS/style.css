@@ -1,0 +1,468 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: damion;
+    src: url(../fonts/damion/Damion-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: robotoslab;
+    src: url(../fonts/roboto-slab/RobotoSlab-Light.ttf);
+}
+
+body,html
+{
+	overflow-x:hidden;
+	margin:0;
+	padding:0;
+	font-family:'robotoslab';
+}
+
+#searchbar
+{
+	color:#fff;
+}
+
+#homepage
+{
+	background:url(../images/slider3-p2.jpg);
+	background-size: auto;
+}
+
+#navigation-bg
+{
+	padding-top:60px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.navigation-bg-rest
+{
+	margin-top:60px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.navbar
+{
+	background:none;
+	border:none;
+	font-weight:600;
+}
+
+#main_menu
+{
+	border-bottom:#fff 1px solid;
+}
+
+.navbar-default .navbar-nav > li >a
+{
+	color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+	color:#F93;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+	background-color:#fff;
+}
+
+.space
+{
+	margin-top:25px;
+}
+
+#jamesPic
+{
+	width:200px;
+	margin:0 auto;
+	height:200px;
+	background:#666;
+}
+
+#jamesthewintro
+{
+	color:#fff;
+	margin-top:50px;
+}
+
+.damionfont
+{
+	font-family:'damion';
+}
+
+.text-customize
+{
+	text-indent:25px;
+	font-size:16px;
+}
+
+.wrapper
+{
+	background:url(../images/recipe.jpg) 10% 40%;
+	height:auto;
+	padding:0px;
+}
+
+.searchbox
+{
+	height:45px;
+}
+
+.space-big
+{
+	margin-top:100px;
+}
+
+.recp
+{
+	height:auto;
+	box-shadow:1px 1px 10px #CCCCCC;
+}
+
+.line-full
+{
+	border-bottom:1px solid #666;
+}
+
+.line-full-gray
+{
+	border-bottom:1px solid #CCC;
+}
+
+.act .line-full-gray
+{
+	border-bottom:1px solid #09F;	
+}
+
+.corner-recipe
+{
+	width:100%;
+	height:200px;
+}
+
+.centre-recipe
+{
+	width:100%;
+	height:250px;
+}
+
+.subrecp
+{
+	width:96%;
+	margin:0 auto;
+	padding-top:10px;
+}
+
+.font-12
+{
+	font-size:12px;
+}
+
+.space-sm
+{
+	margin-top:15px;
+}
+
+.pad-sm
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.subrecp span
+{
+	margin-left:15px;
+}
+
+a:hover
+{
+	text-decoration:none;
+}
+
+.tips
+{
+	box-shadow:1px 1px 10px #CCCCCC;
+	padding-top:10px;
+	margin-top:20px;
+	height:auto;
+}
+
+.contest, .result
+{
+	box-shadow:1px 1px 10px #CCCCCC;
+	padding:10px;
+	height:auto;
+	margin-bottom:15px;
+}
+
+.result
+{
+	border-top:2px solid #09F;
+}
+
+.glyphicon-ok-circle
+{
+	color:#9F3;
+}
+
+.glyphicon-remove-circle
+{
+	color:#F00;
+}
+
+.contest-button
+{
+	background:#09F;
+	border:none;
+	height:40px;
+	color:#fff;
+	font-weight:500;
+	font-size:16px;
+}
+
+.contest-button:hover
+{
+	background:#9F0;
+	color:#333;
+}
+
+.field-button
+{
+	background:#09F;
+	border:none;
+	color:#fff;
+	font-weight:500;
+	font-size:16px;
+}
+
+.feedback input, .account input[type="text"], .account select, .account input[type="password"]
+{
+	height:40px;
+}
+
+#faq p
+{
+	text-indent:20px;
+}
+
+.account
+{
+	border-top:2px solid #09F;
+}
+
+#directions li
+{
+	margin-bottom:10px;
+}
+
+.text-style
+{
+	font-family:"damion";
+	font-size:18px;
+}
+
+.recp a
+{
+	color:#333;
+}
+
+.contestdet
+{
+	box-shadow:1px 1px 5px #333333;
+	padding:10px 30px 30px 30px;
+}
+
+.contestdet h4
+{
+	margin-top:30px;
+}
+
+ol
+{
+	padding-left:0px;
+}
+
+.space-bot
+{
+	margin-bottom:20px;
+}
+
+#recipe-section a:hover
+{
+	color:#333;
+	background:#9F0;
+	cursor:pointer;
+}
+
+.profile h4
+{
+	border-bottom:1px solid #0CF;
+	padding:10px;
+}
+
+.profile .h4input
+{
+	border-bottom:1px solid #0CF;
+	padding-top:0px;
+	margin-top:5px;
+}
+
+a:hover
+{
+	cursor:pointer;
+}
+
+.feedbackview
+{
+	padding:10px;
+	border-top:2px solid #09F;
+	border-bottom:1px dashed #09F;
+}
+
+i
+{
+	margin-left:10px;
+}
+
+a i:hover
+{
+	cursor:pointer;
+	color:#F00;
+}
+
+.fleft
+{
+	float:left;
+}
+
+.noti
+{
+	box-shadow:1px 1px 5px #333;
+	padding:10px 0px 0px 0px;
+	border-radius:10px;
+	height:auto;
+}
+
+#clse
+{
+	float:right;
+    display:inline-block;
+    padding:4px 10px;
+}
+
+#clse:hover
+{
+	color:#F00;
+	cursor:pointer;
+}
+
+.img-responsive
+{
+	width:100%;
+}
+
+.font-20
+{
+	font-size:20px;
+}
+
+.ownpart
+{
+	padding:20px;
+}
+
+.bor-updown
+{
+	padding:10px;
+	border-top:none;
+	border-bottom:1px solid #09F;	
+}
+
+.anchorblack
+{
+	color:#333;
+}
+
+.anchorblack:hover
+{
+	color:#F00;
+}
+
+.winn
+{
+	padding:20px;
+	height:auto;
+}
+
+.onoffswitch {
+    position: relative; width: 127px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #FFFFFF; border-radius: 50px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 35px; padding: 0; line-height: 35px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "WINNER";
+    padding-left: 10px;
+    background-color: #52BAFF; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "WINNER";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 34px; margin: 0.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 88px;
+    border: 2px solid #FFFFFF; border-radius: 50px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+#winnform
+{
+	margin:12px;
+	float:right;
+}
+
+.searchbox
+{
+	float:right;
+	width:100%;
+}
+
+.searchanchor
+{
+	color:#333;
+}
